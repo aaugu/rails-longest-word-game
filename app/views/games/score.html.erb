@@ -1,6 +1,10 @@
 <h1>Result</h1>
 
-<p><%= params[:word].upcase %></p>
+<p>
+  <%= @start %>
+  <%= @word.upcase %>
+  <%= @end %>
+</p>
 
 
 <%= link_to "Play again", new_path %>
